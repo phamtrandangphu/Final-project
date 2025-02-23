@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+figure {
+    width: 250px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+
+figure:hover {
+    transform: scale(1.05);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
